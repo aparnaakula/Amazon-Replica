@@ -1,0 +1,140 @@
+
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Static/Fishing_Boat.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 103px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+h1{
+    padding: 10px 10px 0px 20px;
+}
+
+.sign-up-form {
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    padding-left: 0px;
+    margin: 50px auto 5px auto;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.input-box {
+    border-radius: 100px;
+    padding: 10px;
+    margin: 20px 20px;
+    border: 1px solid #999;
+    outline: none;
+    padding: 5px;
+    width: 350px;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.label-name {
+    margin: 20px 20px;
+    color: #949494;
+}
+
+.forgot {
+    display:inline;
+    float: right;
+    padding-right: 10px;
+}
+
+button {
+   margin: 0%;
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.help {
+    padding-bottom: 20px;
+}
+
+.outside p{
+        line-height: 1;
+        font-size: 12px;
+        color: #767676;
+        font-weight: 400;
+        position: relative;
+        display: inline-block;
+        background-color: #ffff;
+        padding: 0 8px 0 7px;
+    }
+ .outside, .btn {
+    display: flex;
+    justify-content: center;
+
+ }
+
+.outside::before,.outside::after {
+    content: "";
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    width:120px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.btn button{
+    width: 348px;
+    height: 31px;
+    margin: 15px auto;
+    background-color: #e7ebec;
+    background-image: linear-gradient(#f9f9fa, #e7e9ec);
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius:3px;
+}
+    
+#button-color {
+    background-color: orange;
+}
+
+footer .align {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 15px auto 15px auto;
+}
+
+footer .align a{
+    font-size: 12px;
+}
+
+footer::before{
+    content: "";
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 44px;
+    margin-top: -35px;
+    border-top: 1px solid transparent;
+    box-shadow: 0 10px 15px -20px #333;
+}
+
+footer {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+}
